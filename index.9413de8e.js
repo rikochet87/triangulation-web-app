@@ -1,0 +1,2 @@
+window.addEventListener("deviceorientation",(function(e){let t=e.beta-90;t<0&&(t=0);const n=document.getElementById("mySlider").value;document.getElementById("myLable").innerHTML="Distancia al objeto: "+n+" metros";const o=Math.tan(t*Math.PI/180)*n;document.getElementById("heightInfo").innerHTML="Altura del objeto: "+o.toFixed(1)+" m ("+t.toFixed(1)+"&deg;)",console.log(t)})),navigator.mediaDevices.getUserMedia({video:{facingMode:"user"}}).then((e=>{document.getElementById("myVideo").srcObject=e})).catch((function(e){alert(e)}));
+//# sourceMappingURL=index.9413de8e.js.map
