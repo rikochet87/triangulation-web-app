@@ -1,0 +1,2 @@
+body{text-align:center;color:#fff;text-shadow:0 0 4px #000,0 0 4px #000;margin:0;font-family:Arial;font-size:25px;overflow:hidden}#mySlider{appearance:none;width:90%;height:35px;background:#47f;margin-top:35px}#mySlider::-webkit-slider-thumb{appearance:none;width:35px;height:35px;background:#fff}video{z-index:-1;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}#heightInfo{z-index:-1;width:100%;border-bottom:3px solid #fff;top:50%;left:50%;transform:translate(-50%,-100%)}
+/*# sourceMappingURL=index.87593e8b.css.map */
